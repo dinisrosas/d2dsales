@@ -2,7 +2,6 @@
 	// preserve the focus ring for keyboard users because a11y,
 	// but hide for mouse users because fugly
 	let nice = false;
-
 	let theme = 'light';
 
 	try {

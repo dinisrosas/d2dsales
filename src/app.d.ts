@@ -9,4 +9,6 @@ declare global {
 	}
 }
 
+/// <reference types="vite-plugin-pwa/client" />
+
 export {};

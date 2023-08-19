@@ -9,9 +9,10 @@ export function storable<T>(key: string, data: unknown) {
 
         if (!existing) {
             window.localStorage.setItem(key, JSON.stringify(data));
+        } else {
+            saved = JSON.parse(existing);
         }
 
-        saved = JSON.parse(existing);
     }
 
     const store = writable<T>(saved || data);

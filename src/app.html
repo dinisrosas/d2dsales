@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="description" content="A Hacker News clone built with SvelteKit" />
+	<meta name="description" content="Door to Door Sales Appointments" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="robots" content="noindex,nofollow" />
@@ -31,16 +31,6 @@
 
 <body data-sveltekit-preload-data="hover">
 	<div style="display: contents">%sveltekit.body%</div>
-
-	<script>
-		if ("serviceWorker" in navigator) {
-			window.addEventListener("load", () => {
-				navigator.serviceWorker.register("/service-worker.js").then((reg) => {
-					console.log("Service worker registered.", reg);
-				});
-			});
-		}
-	</script>
 </body>
 
 </html>
