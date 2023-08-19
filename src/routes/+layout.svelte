@@ -3,14 +3,7 @@
 	import Nav from '$lib/nav.svelte';
 	import ThemeToggler from '$lib/theme_toggler.svelte';
 	import '../app.css';
-
-	// import { pwaInfo } from 'virtual:pwa-info';
-	// $: webManifestLink = pwaInfo ? pwaInfo.webManifest.linkTag : '';
 </script>
-
-<!-- <svelte:head>
-	{@html webManifestLink}
-</svelte:head> -->
 
 {#if $navigating}
 	<p>navigating...</p>
