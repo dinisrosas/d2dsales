@@ -1,5 +1,6 @@
 <script>
 	import { navigating } from '$app/stores';
+	import Nav from '$lib/nav.svelte';
 	import ThemeToggler from '$lib/theme_toggler.svelte';
 	import '../app.css';
 </script>
@@ -7,6 +8,9 @@
 {#if $navigating}
 	<p>navigating...</p>
 {/if}
+
+
+<Nav />
 
 <main>
 	<slot />

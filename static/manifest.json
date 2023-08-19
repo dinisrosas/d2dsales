@@ -4,7 +4,7 @@
 	"name": "D2D Appointments",
 	"short_name": "D2D Appointments",
 	"display": "minimal-ui",
-	"start_url": "/src/app.html",
+	"start_url": "/",
 	"icons": [
 		{
 			"src": "logo-192.png",
